@@ -2,9 +2,9 @@ import { useState, useEffect, useMemo } from 'react';
 import { motion } from 'framer-motion';
 
 const bgImages = [
-    'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1920&q=80',
-    'https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1920&q=80',
-    'https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=1920&q=80',
+    '/images/IMG_6282.JPG',
+    '/images/IMG_6284.JPG',
+    '/images/IMG_6288.JPG',
 ];
 
 export default function HeroSection({ heroTitle, heroSubtitle }) {
