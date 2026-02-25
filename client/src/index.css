@@ -258,7 +258,7 @@ h6 {
 
 .navbar-links a,
 .navbar-links button {
-  color: var(--text-secondary);
+  color: rgba(255, 255, 255, 0.9);
   font-size: 0.9rem;
   font-weight: 500;
   padding: 8px 16px;
@@ -271,16 +271,30 @@ h6 {
   white-space: nowrap;
 }
 
+.navbar.scrolled .navbar-links a,
+.navbar.scrolled .navbar-links button {
+  color: var(--text-secondary);
+}
+
 .navbar-links a:hover,
 .navbar-links button:hover {
-  background: var(--bg-muted);
+  background: rgba(255, 255, 255, 0.1);
   color: var(--accent);
+}
+
+.navbar.scrolled .navbar-links a:hover,
+.navbar.scrolled .navbar-links button:hover {
+  background: var(--bg-muted);
 }
 
 .navbar-links a.active {
   color: var(--accent);
-  background: rgba(77, 126, 168, 0.06);
+  background: rgba(255, 255, 255, 0.1);
   font-weight: 600;
+}
+
+.navbar.scrolled .navbar-links a.active {
+  background: rgba(77, 126, 168, 0.06);
 }
 
 .search-btn {
