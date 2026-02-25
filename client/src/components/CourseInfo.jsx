@@ -39,7 +39,7 @@ const SvgIcons = {
 const labels = {
     time: '社課時間',
     location: '社課地點',
-    coordinators: '召集人',
+    coordinators: '社團幹部',
     email: 'E-mail',
     ig: 'Instagram',
 };
